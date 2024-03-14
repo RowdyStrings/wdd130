@@ -270,3 +270,70 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+
+/* FAQ CSS */
+
+#questions-box {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    position: relative;
+}
+
+.questions {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: center;
+    color: white;
+    background-color: #38a3a5;
+    transform: translateY(100px);
+    margin-top: -50px;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.line {
+    grid-column: 2/3;
+    width: 95%;  
+    border-bottom: 1px solid white;
+    position: absolute;
+    transform: translateY(-6px);
+}
+
+#bottom-msg {
+    grid-column: 2/3;
+    grid-row: 3;
+    margin-top: -100px;
+    color: white;
+    position: relative;
+}
+
+.faq-box {
+    grid-column: 2/3;
+    grid-row: 1;
+    z-index: -1;
+}
+
+#faq-img1 {
+    width: 100%;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    transform: scale(2);
+}
+
+#faq-img2 {
+    width: 100%;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    transform: scale(1.5);
+}
+
+#faq-footer {
+    background-color: #38a3a5;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
