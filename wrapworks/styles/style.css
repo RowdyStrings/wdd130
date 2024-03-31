@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+/* Home Page CSS */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Orbitron;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #8D99AE;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #737d8e;
+}
+
+.navbar li{
+    float: left;
+}
+#nav-logo{
+    width: 50px;
+    height: auto;
+}
+.home-grid{
+    text-align: center;
+}
+footer{
+    width: 100%vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0px;
+    box-sizing: border-box;
+    background-color: #8D99AE;
+}
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+.inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.inner_footer .logo_container img{
+    width: 50px;
+    height: auto;
+}
+.inner_footer .footer_third {
+    width: calc(21.7% - 20px);
+    margin: 10px;
+    float: left;
+    height: 100%;
+}
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
+}
+.inner_footer .footer_third h1{
+    font-size: 22px;
+    color: #EDF2F4;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inner_footer .footer_third a{
+    font-size: 18px;
+    color: #EDF2F4;
+    display: block; 
+    font-weight: 200;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+.inner_footer .footer_third span{
+    color: #EDF2F4;
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+@media(max-width: 600px){
+    .footer .inner_footer{
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+/* Products Page CSS */
