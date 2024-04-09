@@ -10,7 +10,7 @@
 body{
     font-family: Orbitron;
     color: white;
-    background-image: url(/images/background1.png);
+    background-image: url(../images/background1.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
