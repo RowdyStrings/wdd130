@@ -7,12 +7,13 @@
     list-style: none;
     text-decoration: none;
 }
-
 body{
     font-family: Orbitron;
-}
-h1{
-    text-align: center;
+    color: white;
+    background-image: url(/images/background1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 .navbar ul{
     list-style-type: none;
@@ -42,6 +43,55 @@ h1{
 .home-grid{
     text-align: center;
 }
+h1{
+    text-align: center;
+}
+.hero-msg{
+    text-align: center;
+}
+.order{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: -70px;
+    color: white;
+    background-color: #8D99AE;
+    border: #8D99AE;
+    border-radius: 5px;
+    padding: 5px;
+}
+.order:hover{
+    color: #8D99AE;
+    background-color: white;
+}
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    color: #8D99AE;
+}
+.selection{
+    margin-top: 20px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #8D99AE;
+}
+.line{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    border-bottom: 2px solid #8D99AE;
+}
 footer{
     width: 100%vw;
     display: block;
@@ -63,8 +113,9 @@ footer{
     display: block;
 }
 .inner_footer .logo_container img{
-    width: 50px;
+    width: 200px;
     height: auto;
+
 }
 .inner_footer .footer_third {
     width: calc(21.7% - 20px);
