@@ -176,8 +176,9 @@ footer{
     text-align: center;
     margin-left: 20%;
 }
-#price{
+.price{
     display: inline-block;
+    color: rgb(0, 200, 0);
 }
 
 #products-grid .line{
