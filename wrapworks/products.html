@@ -4,61 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <title>Products</title>
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li><img id="nav-logo" src="images/wrapworks logo.png"></li>
+            <li><img id="nav-logo" src="images/wrapworks_logo.png" alt="WrapWorks logo"></li>
             <li><a class="list-item" href="index.html">Home</a></li>
             <li><a class="list-item">Products</a></li>
             <li><a class="list-item">Info</a></li>
         </ul>
     </nav>
-    <section id="product-sorter">
-        <h1>Sort by type:</h1>
+    <section class="hero-msg">
+        <h1 id="home-title">WrapWorks</h1>
+        <h1 id="home-msg">Check out our selection of products!</h1>
         <div class="button-box">
-        <a class="order" href="order.html">Vehicles</a>
-        </div>
-        <div class="button-box">
-            <a class="order" href="order.html">Accesories</a>
-        </div>
-        <h1>Sort by design:</h1>
-        <div class="button-box">
-        <a class="order" href="order.html">Solid Color</a>
-        </div>
-        <div class="button-box">
-            <a class="order" href="order.html">Camo</a>
-        </div>
-        <div class="button-box">
-            <a class="order" href="order.html">Chameleon</a>
+        <a class="order" href="order.html">Order Now</a>
         </div>
     </section>
     <main>
-        <h1>Our Selection</h1>
-        <section class="#">
-        </section>
+        <h3>Sorted by Price [High - Low]</h3>
+        <div class="products">
+            <ul>
+                <li class="third"><a href="index.html"><img src="images/solidchameleon.png" class="selection" alt="Blue & Purple"><p>Chameleon Blue</p><p class="price">$19.99/10ft</p></a></li>
+                <li class="third"><a href="index.html"><img src="images/solidchameleon_ry.png" class="selection" alt="Red & Yellow"><p>Chameleon Red</p><p class="price">$19.99/10ft</p></a></li>
+                <li class="third"><a href="index.html"><img src="images/solidchameleon_gb.png" class="selection" alt="Green & Blue"><p>Chameleon Green</p><p class="price">$19.99/10ft</p></a></li>
+                <li class="second"><a href="index.html"><img src="images/solidcamo.png" class="selection" alt="Woodland Camo"><p>Woodland Camo</p><p class="price">$14.99/10ft</p></a></li>
+                <li class="second"><a href="index.html"><img src="images/wintercamo.png" class="selection" alt="Arctic Camo"><p>Arctic Camo</p><p class="price">$14.99/10ft</p></a></li>
+                <li class="second"><a href="index.html"><img src="images/desertcamo.png" class="selection" alt="Desert Camo"><p>Desert Camo</p><p class="price">$14.99/10ft</p></a></li>
+                <li class="first"><a href="index.html"><img src="images/solidred.jpg" class="selection" alt="Red"><p>Solid Red</p><p class="price">$9.99/10ft</p></a></li>
+                <li class="first"><a href="index.html"><img src="images/solidgreen.png" class="selection" alt="Red"><p>Solid Green</p><p class="price">$9.99/10ft</p></a></li>
+                <li class="first"><a href="index.html"><img src="images/solidblue.png" class="selection" alt="Red"><p>Solid Blue</p><p class="price">$9.99/10ft</p></a></li>
+            </ul>
+        </div>
+        <hr class="line">
+        <h3>Sorted by Price [Low - High]</h3>
+        <div class="products">
+            <ul>
+                <li class="first"><a href="index.html"><img src="images/solidred.jpg" class="selection" alt="Red"><p>Solid Red</p><p class="price">$9.99/10ft</p></a></li>
+                <li class="first"><a href="index.html"><img src="images/solidgreen.png" class="selection" alt="Red"><p>Solid Green</p><p class="price">$9.99/10ft</p></a></li>
+                <li class="first"><a href="index.html"><img src="images/solidblue.png" class="selection" alt="Red"><p>Solid Blue</p><p class="price">$9.99/10ft</p></a></li>
+                <li class="second"><a href="index.html"><img src="images/solidcamo.png" class="selection" alt="Woodland Camo"><p>Woodland Camo</p><p class="price">$14.99/10ft</p></a></li>
+                <li class="second"><a href="index.html"><img src="images/wintercamo.png" class="selection" alt="Arctic Camo"><p>Arctic Camo</p><p class="price">$14.99/10ft</p></a></li>
+                <li class="second"><a href="index.html"><img src="images/desertcamo.png" class="selection" alt="Desert Camo"><p>Desert Camo</p><p class="price">$14.99/10ft</p></a></li>
+                <li class="third"><a href="index.html"><img src="images/solidchameleon.png" class="selection" alt="Blue & Purple"><p>Chameleon Blue</p><p class="price">$19.99/10ft</p></a></li>
+                <li class="third"><a href="index.html"><img src="images/solidchameleon_ry.png" class="selection" alt="Red & Yellow"><p>Chameleon Red</p><p class="price">$19.99/10ft</p></a></li>
+                <li class="third"><a href="index.html"><img src="images/solidchameleon_gb.png" class="selection" alt="Green & Blue"><p>Chameleon Green</p><p class="price">$19.99/10ft</p></a></li>
+            </ul>
+        </div>
     </main>
     <footer>
         <div class="inner_footer">
-            <di class="logo_container">
-                <img src="/images/wrapworks logo.png">
-            </di>
+            <div class="logo_container">
+                <img src="images/wrapworks_logo.png" alt="WrapWorks Logo">
+            </div>
             <div class="footer_third">
                 <h1>Need Help?</h1>
                 <a href="#">Terms &amp; Conditions</a>
                 <a href="#">Privacy Policy</a>
             </div>
+
             <div class="footer_third">
                 <h1>More</h1>
                 <a href="#">Info</a>
                 <a href="#">Business Conduct</a>
             </div>
+
             <div class="footer_third">
                 <h1>Follow Us</h1>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Youtube</a></li>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Youtube</a>
+
                 <span>
                     © WrapWorks 2024 - Brandon Jimenez
                 </span>

@@ -10,8 +10,8 @@
 body{
     font-family: Orbitron;
     color: white;
-    background-image: url(../images/background1.png);
-    background-position: top;
+    background-image: url(../images/background1.png), url(../images/background2.png), url(../images/background5.png);
+    background-position: top, center, bottom;
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -44,6 +44,9 @@ body{
     text-align: center;
 }
 h1{
+    text-align: center;
+}
+h3{
     text-align: center;
 }
 .hero-msg{
@@ -168,3 +171,16 @@ footer{
     }
 }
 /* Products Page CSS */
+.products{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+}
+#price{
+    display: inline-block;
+}
+
+#products-grid .line{
+    width: 60%;
+    margin-left: 20%;
+}
